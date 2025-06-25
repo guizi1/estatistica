@@ -124,3 +124,4 @@ def estimativas_variabilidade(dados_brutos, media):
     print(df_amplitudes.round(2))
 
 estimativas_variabilidade(df_dados_brutos['Taxa homicidios'], np.mean(df_dados_brutos['Taxa homicidios']))
+
